@@ -1,0 +1,16 @@
+.wraped {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+.content {
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.title {
+  display: flex;
+  background-color: rgb(208, 139, 35);
+}
