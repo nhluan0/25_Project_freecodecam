@@ -1,0 +1,26 @@
+.container_wraped {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.container_image {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  border: 1px solid;
+}
+.container_image img {
+  height: 250px;
+  width: auto;
+}
+.container_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+}
