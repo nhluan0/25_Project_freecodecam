@@ -5,6 +5,7 @@ import RandomColor from './components/01_generate_random_color/RandomColor'
 import StarRating from './components/02_Star_rating/StarRating'
 import SliderImage from './components/03_slider_image/SliderImage'
 import LoadMoreButton from './components/04_load_more_button/LoadMoreButton'
+import QrCode from './components/06_qr_code/QrCode'
 function App() {
   return (
     <>
@@ -12,7 +13,8 @@ function App() {
       {/* <RandomColor /> */}
       {/* <StarRating numOfStar={10} /> */}
       {/* <SliderImage url="https://picsum.photos/v2/list?" limit="5" page="1" /> */}
-      <LoadMoreButton />
+      {/* <LoadMoreButton /> */}
+      <QrCode />
     </>
   )
 }
