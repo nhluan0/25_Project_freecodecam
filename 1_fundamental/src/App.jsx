@@ -9,6 +9,7 @@ import QrCode from './components/06_qr_code/QrCode'
 import LitghAndDarkMode from './components/07_Theme_switch/LitghAndDarkMode'
 import ScrollIndicator from './components/08_Scroll_indicator/ScrollIndicator'
 import Tabs from './components/09_Tabs/Tabs'
+import CustomModal from './components/10_Custom_modal/CustomModal'
 function App() {
   return (
     <>
@@ -20,7 +21,8 @@ function App() {
       {/* <QrCode /> */}
       {/* <LitghAndDarkMode /> */}
       {/* <ScrollIndicator /> */}
-      <Tabs />
+      {/* <Tabs /> */}
+      <CustomModal />
     </>
   )
 }
