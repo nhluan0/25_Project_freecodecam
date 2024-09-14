@@ -1,0 +1,33 @@
+.github_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.search_username {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+  overflow: hidden;
+  margin-top: 1rem;
+  flex-direction: column;
+  width: 50vw;
+}
+.image {
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  border: none !important;
+  border-bottom: 1px solid !important;
+}
+.image img {
+  max-height: 200px;
+  border-radius: 100%;
+}
