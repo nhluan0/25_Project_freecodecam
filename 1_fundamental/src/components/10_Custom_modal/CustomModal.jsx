@@ -15,7 +15,14 @@ const CustomModal = () => {
       {open && (
         <div className="container_modal" onClick={() => setOpen(!open)}></div>
       )}
-      {open && <Modal setOpen={setOpen} />}
+      {open && (
+        <Modal
+          setOpen={setOpen}
+          header="customized header"
+          body="body"
+          footer="footer"
+        />
+      )}
     </div>
   )
 }
