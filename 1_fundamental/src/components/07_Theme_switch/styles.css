@@ -1,0 +1,29 @@
+:root {
+  --background: #ffffff;
+  --text-primary: #000;
+  --background-button: #000;
+  --button-text: #ffffff;
+}
+[data-luan='dark'] {
+  --background: #000000;
+  --text-primary: #fff;
+  --background-button: #fff;
+  --button-text: #000000;
+}
+
+.container-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--background);
+}
+.container-bg h1 {
+  color: var(--text-primary);
+}
+.container-bg button {
+  color: var(--button-text);
+  background-color: var(--background-button);
+}
