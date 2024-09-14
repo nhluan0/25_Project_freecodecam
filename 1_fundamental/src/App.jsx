@@ -8,6 +8,7 @@ import LoadMoreButton from './components/04_load_more_button/LoadMoreButton'
 import QrCode from './components/06_qr_code/QrCode'
 import LitghAndDarkMode from './components/07_Theme_switch/LitghAndDarkMode'
 import ScrollIndicator from './components/08_Scroll_indicator/ScrollIndicator'
+import Tabs from './components/09_Tabs/Tabs'
 function App() {
   return (
     <>
@@ -18,7 +19,8 @@ function App() {
       {/* <LoadMoreButton /> */}
       {/* <QrCode /> */}
       {/* <LitghAndDarkMode /> */}
-      <ScrollIndicator />
+      {/* <ScrollIndicator /> */}
+      <Tabs />
     </>
   )
 }

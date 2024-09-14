@@ -1,0 +1,18 @@
+.container_wraped {
+  display: flex;
+  flex-direction: column;
+}
+.tab {
+  display: flex;
+}
+.tag_label {
+  border: 1px solid #000;
+  font-size: 2rem;
+  color: #fff;
+  padding: 1rem;
+  cursor: pointer;
+}
+.tab_content {
+  color: #be2185;
+  font-size: 2rem;
+}
