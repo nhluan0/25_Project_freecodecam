@@ -13,6 +13,7 @@ import CustomModal from './components/10_Custom_modal/CustomModal'
 import GithubProfileFinder from './components/11_Github_profile/GithubProfileFinder'
 import SearchAutoCompleteFromAPI from './components/12_Search_AutoComplete_From_API/SearchAutoCompleteFromAPI'
 import TicTacToe from './components/13_Tic_Tac_Toe/TicTacToe'
+import TicTacToeYoutube from './components/13_tic_tac_toe_youtube/TicTacToeYoutube'
 function App() {
   return (
     <>
@@ -28,7 +29,8 @@ function App() {
       {/* <CustomModal /> */}
       {/* <GithubProfileFinder /> */}
       {/* <SearchAutoCompleteFromAPI /> */}
-      <TicTacToe />
+      {/* <TicTacToe /> */}
+      <TicTacToeYoutube />
     </>
   )
 }

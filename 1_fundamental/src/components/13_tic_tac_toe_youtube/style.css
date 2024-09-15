@@ -1,0 +1,17 @@
+.tic_tac_toe_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.tic_tac_toe_container div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.tic_tac_toe_container div button {
+  height: 100px;
+  width: 100px;
+  border: 1px solid red;
+  font-size: 2rem;
+}
