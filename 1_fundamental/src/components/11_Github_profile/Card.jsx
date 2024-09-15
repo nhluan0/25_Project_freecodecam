@@ -1,23 +1,24 @@
 import React from 'react'
 
 const Card = ({ info }) => {
+  const { avatar_url, html_url, name, location, organizations_url } = info || {}
   return (
     <div>
       <div className="container_info">
-        <div className="image">{info && <img src={info.avatar_url} />}</div>
+        <div className="image">{info && <img src={avatar_url} />}</div>
         {info && (
           <div className="info">
             <p>
               url :{' '}
-              <a href={info.html_url} target="#">
+              <a href={html_url} target="_blank">
                 infomation
               </a>
             </p>
-            <p>Name :{info.name}</p>
-            <p>Location : {info.location}</p>
+            <p>Name :{name}</p>
+            <p>Location : {location}</p>
             <p>
               organizations_url:{' '}
-              <a href={info.organizations_url}>organizations_url</a>
+              <a href={organizations_url}>organizations_url</a>
             </p>
           </div>
         )}

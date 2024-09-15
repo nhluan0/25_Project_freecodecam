@@ -11,6 +11,7 @@ import ScrollIndicator from './components/08_Scroll_indicator/ScrollIndicator'
 import Tabs from './components/09_Tabs/Tabs'
 import CustomModal from './components/10_Custom_modal/CustomModal'
 import GithubProfileFinder from './components/11_Github_profile/GithubProfileFinder'
+import SearchAutoCompleteFromAPI from './components/12_Search_AutoComplete_From_API/SearchAutoCompleteFromAPI'
 function App() {
   return (
     <>
@@ -24,7 +25,8 @@ function App() {
       {/* <ScrollIndicator /> */}
       {/* <Tabs /> */}
       {/* <CustomModal /> */}
-      <GithubProfileFinder />
+      {/* <GithubProfileFinder /> */}
+      <SearchAutoCompleteFromAPI />
     </>
   )
 }
