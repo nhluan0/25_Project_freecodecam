@@ -27,7 +27,9 @@ const SearchAutoCompleteFromAPI = () => {
   console.log(users)
   const handleSearch = () => {
     if (userSearch && userSearch.trim()) {
-      const rsUsers = users.filter((item) => item.indexOf(userSearch) !== -1)
+      const rsUsers = users.filter(
+        (item) => item.toLowerCase().indexOf(userSearch.toLowerCase()) !== -1
+      )
       setResultUsers(rsUsers)
     }
   }
