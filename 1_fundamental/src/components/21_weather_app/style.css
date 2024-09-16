@@ -1,0 +1,28 @@
+.container_app_weather {
+  background-color: rgb(8, 234, 159);
+  padding: 1rem;
+  width: 50%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 1rem;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+.search_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.search_container input {
+  width: 80%;
+}
+.container_wind_humidity {
+  display: flex;
+
+  align-items: center;
+}
+.column_wind_humidity {
+  width: 100%;
+}

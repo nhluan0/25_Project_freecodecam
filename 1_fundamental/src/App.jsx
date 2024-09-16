@@ -14,6 +14,7 @@ import GithubProfileFinder from './components/11_Github_profile/GithubProfileFin
 import SearchAutoCompleteFromAPI from './components/12_Search_AutoComplete_From_API/SearchAutoCompleteFromAPI'
 import TicTacToe from './components/13_Tic_Tac_Toe/TicTacToe'
 import TicTacToeYoutube from './components/13_tic_tac_toe_youtube/TicTacToeYoutube'
+import WeatherApp from './components/21_weather_app/WeatherApp'
 function App() {
   return (
     <>
@@ -30,7 +31,8 @@ function App() {
       {/* <GithubProfileFinder /> */}
       {/* <SearchAutoCompleteFromAPI /> */}
       {/* <TicTacToe /> */}
-      <TicTacToeYoutube />
+      {/* <TicTacToeYoutube /> */}
+      <WeatherApp />
     </>
   )
 }
