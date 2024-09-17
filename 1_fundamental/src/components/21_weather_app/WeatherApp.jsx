@@ -21,6 +21,7 @@ const WeatherApp = () => {
       console.log(data)
     } catch (error) {
       setLoading(false)
+
       console.log(error)
     }
   }
